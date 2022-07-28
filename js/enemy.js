@@ -87,4 +87,4 @@ function drawImageRot(ctx, img, x, y, width, height, deg) {
 
     ctx.restore();
 }
-export {Enemy};
+export class Enemy{

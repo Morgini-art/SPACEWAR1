@@ -5,4 +5,4 @@ class GameObjects {
     explosions = [];
 }
 
-export {GameObjects};
+export class GameObjects {

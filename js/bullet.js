@@ -42,4 +42,4 @@ class Bullet {
     }
 }
 
-export {Bullet};
+export class Bullet{

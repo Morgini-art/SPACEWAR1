@@ -11,4 +11,4 @@ class Ship {
 }
 
 
-export {Ship};
+export class Ship{

@@ -70,4 +70,4 @@ class Player {
     }
 }
 
-export {Player};
+export class Player{
