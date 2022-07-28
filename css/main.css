@@ -1,0 +1,82 @@
+body {
+    background-color: #5798ba;
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+}
+
+#credits {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    display: block;
+}
+
+#gra {
+    background: url(background-1.png);
+    user-select: none; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border-radius: 6px;
+    border: 6px #5798ba solid;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+a {
+    width: 580px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+input {
+    margin: auto;
+    width: 120px;
+    display: inline-block;
+    background-color: #5798ba;
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #5798ba;
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+}
+
+.buttonchangearmor {
+    width: 35px;
+    height: 35px;
+    position: static;
+}
+
+#armortext {
+    font-size: 25px;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    bottom: 8px;
+}
+
+.doneicon {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    right: 6px;
+}
+
+.armorno {
+    display: none;
+}
