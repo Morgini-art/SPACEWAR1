@@ -12,13 +12,13 @@ export {canWidth};
 //Canvas Variables
 
 const ships = [
-    new Ship(require('./img/ships/1.png'), null, 124, 135, [3, 45, 113, 45], 8),
-    new Ship(require('./img/ships/2.png'), null, 120, 185, [18, 13, 92, 13], 11),
-    new Ship(require('./img/ships/3.png'), null, 116, 110, [17, 0, 97, 0], 2),
-    new Ship(require('./img/ships/4.png'), null, 199, 112, [74, 70,81,65,94,73,101,70,294,70,301,75,313,65,320,70], 4),
-    new Ship(require('./img/ships/5.png'), null, 134, 199, [27, 61,98, 61], 10),
-    new Ship(require('./img/ships/6.png'), null, 230, 336, [27,44,37,38,201,44,192,38,101,14,127,14,106,1,122,1], 2),
-    new Ship(require('./img/ships/7.png'), null, 168, 104, [24, 140], 4)
+    new Ship(require('./img/ships/1.png'), 124, 135, [3, 45, 113, 45], 8),
+    new Ship(require('./img/ships/2.png'), 120, 185, [18, 13, 92, 13], 11),
+    new Ship(require('./img/ships/3.png'), 116, 110, [17, 0, 97, 0], 2),
+    new Ship(require('./img/ships/4.png'), 199, 112, [74, 70,81,65,94,73,101,70,294,70,301,75,313,65,320,70], 4),
+    new Ship(require('./img/ships/5.png'), 134, 199, [27, 61,98, 61], 10),
+    new Ship(require('./img/ships/6.png'), 230, 336, [27,44,37,38,201,44,192,38,101,14,127,14,106,1,122,1], 2),
+    new Ship(require('./img/ships/7.png'), 168, 104, [24, 140], 4)
 ]; 
 
 //OBJECTS
