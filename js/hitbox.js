@@ -16,8 +16,7 @@ function checkCollisionWith(hitbox1, hitbox2) {
         
         return true;
 
-    } else {
-        return false;
     }
+    return false;
 }
 export {Hitbox, checkCollisionWith};
